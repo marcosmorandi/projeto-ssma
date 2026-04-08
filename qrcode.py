@@ -1,6 +1,6 @@
 
 import qrcode
 
-url = "https://meusite.vercel.app"
+url = "https://meusite.netlify.com"
 img = qrcode.make(url)
 img.save("qrcode_meusite.png")
